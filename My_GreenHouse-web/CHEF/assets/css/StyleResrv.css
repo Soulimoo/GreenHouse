@@ -1,0 +1,53 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to right, #ecf6f7, #a8dde9);
+}
+.cup{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 150px;
+	height: 180px;
+	border: 6px solid #262626;
+	border-top: 2px solid transparent;
+	border-radius: 15px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background: url(../img/water.png);
+	background-repeat: repeat-x;
+	box-shadow: 0 0 0 6px #fff, 0 20px 35px rgba(0,0,0,1);
+}
+@keyframes animate{
+	0%
+	{
+		background-position: 0 100px;
+	}
+	10%
+	{
+		background-position: 0 100px;
+	}
+	40%
+	{
+		background-position: 500px -70px;
+	}
+	80%
+	{
+		background-position: 1000px -80px;
+	}
+	100%
+	{
+		background-position: 1500px 100px;
+	}
+}
+.switch{
+  display: inline;
+  position: absolute;
+  top: 250px;
+  right: 250px;
+}
+.switch label{
+  font-family: 'Segoe UI';
+  font-size: 20px;
+}

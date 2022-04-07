@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fff"
+    android:padding="10dp"
+    tools:context=".LampeControle">
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_irrig"
+        android:text="Allumer Irrigation"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:layout_marginTop="40dp"
+        android:thumb="@drawable/sw_thumb"
+        app:track="@drawable/sw_track"
+        app:showText="true"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/img_irrig"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
